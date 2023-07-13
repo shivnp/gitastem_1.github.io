@@ -1,0 +1,7 @@
+- name: Indian Institute of Technology Kanpur
+  logo: ./images/institutions-logos/iitk.png
+  url: https://iitk.ac.in/
+
+- name: MADHAV Lab
+  logo: ./images/institutions-logos/madhavlab.png
+  url: https://madhavlab.github.io/

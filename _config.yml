@@ -1,0 +1,142 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+
+# Head settings
+title: GitaSTEM
+email: vipular@iitk.ac.in
+#event-date: "2023-12-17T00:00:00"
+tagline: Gita and Science-Technology-Engineering-Mathematics
+#description: >-lorem lupsum
+ 
+twitter-username: "@madhavlab"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://madhavlab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+author:
+  name: MADHAV Lab
+  url: https://madhavlab.github.io
+
+
+# Header settings
+inline-logo: '<span class="logo"><span class="main-name">GitaSTEM<span class="superscript"></span></span> <span class="sub-name"></span></span>'
+header:
+  heading: '<span class="logo"><span class="main-name">GitaSTEM</span></span>'
+  subheading: <span class="emph">Gita</span> and <span class="emph">Science</span>-<span class="emph">Technology</span>-<span class="emph">Engineering</span>-<span class="emph">Mathematics</span>
+  #date-location: 17 December - 20 December / Kanpur, India
+  # Countdown settings
+  #countdown-date: "2023-12-17T00:00:00Z"
+  #countdown-text: '<a href="registration">Registration</a> closes in:'
+
+
+# Navigation settings
+navigation:
+  - name: "/ About"
+    url: "#about"
+  
+  - name: "/ Speakers"
+    url: "#speakers"
+
+  - name: "/ Registration"
+    url: "#registration"
+
+  - name: "/ Timeline"
+    url: "#timeline"
+
+  - name: "/Program"
+    subsites:
+    - name: "Call for Abstract"
+      url: "cfa"
+    - name: "WiSSAP Cup"
+      url: "wissap-cup"
+
+
+
+  - name: "/ Agenda"
+    url: "#agenda"
+
+  - name: "/ Venue"
+    url: "#venue"
+
+  - name: "/ Organizers"
+    url: "#organizers"
+
+
+# Defaults for different pages
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/mlss^s-2023-event-banner.jpg
+
+
+# Color settings
+color:
+  main: "#6DB6C6"
+  second: "#6DB6C6"
+  main-gradient: "#FF0000, #FF00FF"
+  background: "#FFFFFF"
+  image-filter: hue-rotate(190deg)
+
+
+# Footer settings
+footer: MADHAV Lab
+
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/company/madhav-lab/
+  - title: twitter
+    url: https://twitter.com/madhavlab
+  - title: youtube
+    url: https://www.youtube.com/@MADHAVlabIITK
+
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-seo-tag
+
+markdown: kramdown
+permalink: pretty
+
+sass:
+  style: compressed # possible values: nested expanded compact compressed
+
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

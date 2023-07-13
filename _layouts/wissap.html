@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    {% include nav.html %}
+    {% include header.html %}
+    {% include wissap/about.html %}
+    {% include wissap/speakers.html %}
+    {% include wissap/registration.html %}
+    {% include timeline.html 
+        timeline-title="Timeline" 
+        timeline-data=site.data.wissap-timeline 
+        timeline-col-width=7 
+        image-col-width=5 
+        date-col-width=5
+        desc-col-width=7
+    %}
+    {% include timeline-to-be-announced.html 
+        timeline-title="Agenda" 
+        to-be-announced-description = "The detailed schedule of the winter school will be announced soon. We are working hard on it!"
+    %}
+    <!-- {% include agenda.html agenda-data=site.data.wissap-agenda %} -->
+    {% include wissap/venue.html %}
+    {% include wissap/organizers.html %}
+    {% include wissap/sponsors.html %}
+    {% include footer.html %}
+    {% include js.html %}
+</body>
+</html>

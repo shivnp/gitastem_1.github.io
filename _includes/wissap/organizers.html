@@ -1,0 +1,28 @@
+<!-- Institutions Section -->
+<section id="organizers" class="container content-section text-center" >
+  <div class="row">
+    <div class="col-lg-12">
+      <h2>/ Organizers</h2>
+    </div>
+  </div>
+  <!-- <div class="row">
+    <div class="col-lg-12 text-center" style="width: 100%; display: flex; flex-wrap: wrap; align-items: center;">
+      {% for institution in site.data.wissap-organizing-institutions %}
+      <div style="flex: 1; padding: 2em 1em 2em 1em !important;">
+        <a href="{{ institution.url }}">
+          <img height="200" src="{{ institution.logo | relative_url }}" alt="{{ institution.name }}">
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div> -->
+
+  {% include people-small-with-social.html people-data=site.data.wissap-organizers %}
+  <div class="row">
+    <div class="col-lg-12">
+      <h2>/ Core Committee</h2>
+    </div>
+  </div>
+  {% include people-core-committee.html people-data=site.data.wissap-corecommittee %}
+
+</section>
