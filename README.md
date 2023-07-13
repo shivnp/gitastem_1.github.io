@@ -1,4 +1,4 @@
-# wissap23.madhavlab.com
+# GitaSTEM
 
 ## Quick-start - running this repo locally
 
