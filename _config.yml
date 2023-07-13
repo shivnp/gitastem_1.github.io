@@ -28,7 +28,7 @@ tagline: Gita and Science-Technology-Engineering-Mathematics
  
 twitter-username: "@madhavlab"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://madhavlab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://gitastem_1.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 author:
   name: MADHAV Lab
   url: https://madhavlab.github.io
